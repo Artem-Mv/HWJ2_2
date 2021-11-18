@@ -13,7 +13,7 @@ public class Main {
         int sum = scanner.nextInt();
         System.out.println("Ваш баланс: " + (sum + balance));
         if (sum > 1000) {
-            System.out.print("Бонусов за пополнение начислино: " + (sum / 100));
+            System.out.print("Бонусов за пополнение начислено: " + (sum / 100));
         }
 
     }
